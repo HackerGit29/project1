@@ -1,0 +1,27 @@
+/* styles.css */
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#welcome-section {
+    height: 100vh; /* Viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.project-tile {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
